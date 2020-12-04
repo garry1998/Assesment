@@ -21,6 +21,7 @@ namespace WebApplication68.Controllers
         // GET: Student
         public ActionResult Display()
         {
+            ViewBag.count= l1.Count();
             return View(l1);
         }
 
